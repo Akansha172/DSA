@@ -11,7 +11,6 @@ class solution{
 };
 
 int main(){
-    
     int test_case;
     cin >> test_case;
     while(test_case--){
@@ -26,7 +25,6 @@ int main(){
 
     solution obj;
     cout<<obj.getKthMinimum(arr,0,n,k);
-}
-
+   }
     return 0;
 }

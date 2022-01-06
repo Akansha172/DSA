@@ -29,10 +29,8 @@ struct Pair getMinMax(int arr[],int n){
             miniMax.min = arr[i];
         }
     }
-    return miniMax;
-
+   return miniMax;
 }
-
 
 int main(){
     int n;
@@ -42,11 +40,7 @@ int main(){
     {
         cin>>arr[i];
     }
-
-    struct Pair minMax = getMinMax(arr,n);
-    
+    struct Pair minMax = getMinMax(arr, n);
     cout<<"Maximum in array is " << minMax.max <<" Minimum in array is " << minMax.min;
-
-
     return 0;
     }
