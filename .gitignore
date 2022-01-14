@@ -4,3 +4,5 @@ vscode/
 *.prob
 *.exe
 *.json
+*.bin
+*.gitignore
