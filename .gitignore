@@ -1,3 +1,6 @@
 cph/
 vscode/
-*./cph/*.prob
+*/cph/*.prob
+*.prob
+*.exe
+*.json
